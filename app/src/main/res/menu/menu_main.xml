@@ -1,0 +1,46 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developerandroid.lab9.MainActivity">
+
+
+    <item
+        android:title="@string/menu_about"
+        android:orderInCategory="1"
+        android:id="@+id/menu_about"/>
+    <item
+        android:title="@string/menu_settings"
+        android:orderInCategory="2"
+        android:id="@+id/menu_settings"/>
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/menu_red"
+        android:orderInCategory="3"
+        android:title="@string/red_string"/>
+    <item
+        android:id="@+id/menu_green"
+        android:orderInCategory="4"
+        android:title="@string/green_string"/>
+    <item
+        android:id="@+id/menu_yellow"
+        android:orderInCategory="5"
+        android:title="@string/yellow_string"/>
+    <item
+        android:id="@+id/menu_blue"
+        android:orderInCategory="6"
+        android:title="@string/blue_string"/>
+    <item
+        android:id="@+id/menu_default"
+        android:orderInCategory="7"
+        android:title="@string/default_string"
+        android:showAsAction="never" />
+    </group>
+</menu>
+
+
+
+
+

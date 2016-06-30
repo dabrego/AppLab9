@@ -1,0 +1,12 @@
+<resources>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_settings">Configuracion</string>
+
+    <string name="app_name">AppLab9</string>
+    <string name="red_string">Rojo</string>
+    <string name="green_string">Verde</string>
+    <string name="yellow_string">Amarillo</string>
+    <string name="blue_string">Azul</string>
+    <string name="default_string">Por Defecto</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+</resources>
